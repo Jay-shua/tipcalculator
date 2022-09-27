@@ -218,3 +218,19 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 750px) {
+    .base {
+        flex-direction: column;
+    }
+    .left,
+    .right {
+        width: 100%;
+        align-self: stretch;
+        min-height: 100%;
+    }
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

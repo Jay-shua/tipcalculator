@@ -207,6 +207,9 @@ body {
     .base {
         flex-direction: column;
     }
+    .wrapper {
+        width: 100%;
+    }
     .left,
     .right {
         width: 100%;
@@ -222,6 +225,7 @@ body {
 @media screen and (max-width: 750px) {
     .base {
         flex-direction: column;
+        width: 100%;
     }
     .left,
     .right {

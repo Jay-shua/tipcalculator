@@ -25,7 +25,7 @@ body {
 }
 
 .base {
-    width: 100%;
+    width: 80%;
     background-color: hsl(0, 0%, 100%);
     border-radius: var(--border-radius);
     padding: 1.5rem;
@@ -203,24 +203,7 @@ body {
     text-align: center;
 }
 
-@media screen and (min-width: 300px) {
-    .base {
-        flex-direction: column;
-    }
-    .wrapper {
-        width: 100%;
-    }
-    .left,
-    .right {
-        width: 100%;
-        align-self: stretch;
-        min-height: 100%;
-    }
-}
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
 
 @media screen and (max-width: 750px) {
     .base {
@@ -237,4 +220,5 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+
 }
